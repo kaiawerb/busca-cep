@@ -1,0 +1,113 @@
+/* 
+-- Z-index
+-- Positions
+-- Display
+
+-- Tamanho
+-- Margin Padding Border Box Shadow Outline
+-- Cursor 
+-- Background
+-- Content
+
+-- Cor
+-- Font Family
+-- Font Size
+-- Font Weight
+-- Line Height
+
+*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+
+  background: linear-gradient(180deg, #fff 0%, #d1d1d1 100%);
+}
+
+.container h1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 76px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #000;
+}
+
+span.bold {
+  font-weight: 500;
+}
+
+.containerInput {
+  display: flex;
+
+  padding: 14px 28px;
+  margin: 32px 0;
+  border-radius: 100px;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.03);
+
+  background-color: #f3f3f3;
+}
+
+.containerInput input {
+  border: none;
+  background: transparent;
+
+  margin-right: 8px;
+  outline: none;
+
+  font-size: 16px;
+  color: #525252;
+}
+
+.containerInput button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 0;
+  cursor: pointer;
+
+  background: transparent;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 496px;
+  padding: 16px;
+  margin-top: 24px;
+  border-radius: 8px;
+
+  background-color: #fff;
+}
+
+.main h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.main span {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 48px;
+  }
+
+  .main {
+    width: 80%;
+  }
+
+  .main h2 {
+    font-size: 28px;
+  }
+}
