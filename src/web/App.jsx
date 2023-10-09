@@ -1,7 +1,8 @@
 import React, { useState } from "react"
-import { PiMagnifyingGlassBold } from "react-icons/pi"
-import { PiMapPinLineBold } from "react-icons/pi"
+import { PiMagnifyingGlassBold, PiMapPinLineBold } from "react-icons/pi"
+
 import { handleSearch } from "../server/api.js"
+
 function App() {
   const [input, setInput] = useState("")
   const [adress, setAdress] = useState({
