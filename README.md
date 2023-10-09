@@ -15,9 +15,10 @@
 
 * HTML
 * CSS
-* React
-* Node.JS
+* Vite
+* React JS
 * Javascript
+
 * <a href="https://viacep.com.br" target="_blank">API ViaCEP</a>
 * Bibliotecas React: <a href="https://react-icons.github.io/react-icons/" target="_blank">React Icons</a> e <a href="https://axios-http.com" target="_blank">Axios</a>
 
